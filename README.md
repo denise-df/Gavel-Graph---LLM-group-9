@@ -1,5 +1,5 @@
 # Gavel&Graph - AI Frontiers: LLM - Group 9
-# Stare Decisis AI: Graph RAG for Texas Criminal Law
+## Stare Decisis AI: Graph RAG for Texas Criminal Law
 
 Project developed for the **AI Frontiers: LLM** course.
 
@@ -8,6 +8,9 @@ Project developed for the **AI Frontiers: LLM** course.
 * **Denise Di Franza**
 * **Anastasia Farinaro**
 * **Daniele Sarcina**
+
+## Link to the presentation
+https://aifrontiersgroup6.my.canva.site/llm
 
 > **Bridging the Semantic Gap in Legal Research with Hybrid Graph Retrieval-Augmented Generation.**
 
