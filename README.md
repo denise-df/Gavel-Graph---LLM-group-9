@@ -98,8 +98,8 @@ graph TD
 Clone the repository:
 
 ```bash
-git clone [https://github.com/your-username/stare-decisis-ai.git](https://github.com/your-username/stare-decisis-ai.git)
-cd stare-decisis-ai
+git clone [https://github.com/denise-df/Gavel-Graph.git](https://github.com/enise-df/Gavel-Graph.git)
+cd Gavel-Graph
 ```
 
 Install dependencies:
