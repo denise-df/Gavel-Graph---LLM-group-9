@@ -1,7 +1,7 @@
 # Gavel&Graph - AI Frontiers: LLM - Group 9
-# ⚖️ Stare Decisis AI: Graph RAG for Texas Criminal Law
+# Stare Decisis AI: Graph RAG for Texas Criminal Law
 
-## 👥 Authors
+## Authors
 
 Project developed for the **AI Frontiers: LLM** course.
 
@@ -18,25 +18,28 @@ Project developed for the **AI Frontiers: LLM** course.
 ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini%202.0-8E75B2)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
 ````
-## 📖 Overview
+
+An intelligent legal assistant that combines semantic search with legal citation network analysis.
+
+## Overview
 
 **Stare Decisis AI** is an intelligent legal assistant designed to navigate the complexity of the US Common Law system. Unlike traditional keyword-based search engines, which fail to capture legal nuance, this project utilizes a **Graph RAG (Retrieval-Augmented Generation)** architecture.
 
-By transforming over **7,000 raw legal documents** (Texas Criminal Reports) into a Knowledge Graph, the system can identify relevant precedents based on **semantic similarity** (Vector Search) and **legal authority** (Citation Network Analysis), generating strategic defense memos in real-time.
+By transforming  **7791 raw legal documents** (Texas Criminal Reports) into a Knowledge Graph, the system can identify relevant precedents based on **semantic similarity** (Vector Search) and **legal authority** (Citation Network Analysis), generating strategic defense memos in real-time.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* **🧠 Hybrid Retrieval Engine:** Combines **Vector Search** (to find similar facts) with **Graph Traversal** (to find authoritative precedents cited by those cases).
-* **🕸️ Citation Network Analysis:** Traverses the graph (Depth 1-2) to uncover the "legal pillars" behind a case, identifying winning strategies (e.g., *Reversed* judgements).
-* **⚖️ Strategic Filtering:** Allows users to filter results based on the desired outcome (e.g., *Defense/Acquittal* vs. *Prosecution/Conviction*).
-* **📝 LLM-Driven Extraction:** Utilizes Google Gemini 2.0 to extract structured metadata (Offense, Punishment, Decision) from unstructured 19th-20th century texts.
-* **📊 Interactive Visualization:** Features a dynamic graph visualization to explore the connections between the user's case and historical precedents.
+* ** Hybrid Retrieval Engine:** Combines **Vector Search** (to find similar facts) with **Graph Traversal** (to find authoritative precedents cited by those cases).
+* ** Citation Network Analysis:** Traverses the graph (Depth 1-2) to uncover the "legal pillars" behind a case, identifying winning strategies (e.g., *Reversed* judgements).
+* ** Strategic Filtering:** Allows users to filter results based on the desired outcome (e.g., *Defense/Acquittal* vs. *Prosecution/Conviction*).
+* ** LLM-Driven Extraction:** Utilizes Google Gemini 2.0 to extract structured metadata (Offense, Punishment, Decision, Conviction) from unstructured 19th-20th century texts.
+* ** Interactive Visualization:** Features a dynamic graph visualization to explore the connections between the user's case and historical precedents.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The system operates in two main phases: **The Builder** (Batch Processing) and **The Assistant** (Inference).
 
@@ -60,7 +63,7 @@ graph TD
 
 -----
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
   * **Language:** Python 3.10+
   * **Database:** Neo4j (Graph DB + Vector Index)
@@ -70,7 +73,7 @@ graph TD
 
 -----
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 ├── data_pipeline/
@@ -85,7 +88,7 @@ graph TD
 
 -----
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1\. Prerequisites
 
@@ -133,7 +136,7 @@ streamlit run app.py
 
 -----
 
-## 🧪 Evaluation & Results
+## Evaluation & Results
 
 We conducted an ablation study comparing **Vector-Only Search** vs. **Graph RAG**.
 
