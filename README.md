@@ -61,7 +61,7 @@ graph TD
         Gen --> Output[Strategic Memo]
     end
 ````
-### 🧠 LLM Engineering
+### LLM Engineering
 We implemented a multi-model architecture to leverage the best strengths of each LLM version:
 
 * **High-Fidelity Extraction (Gemini 2.5):** We used **Gemini 2.5** for Zero-Shot extraction of structured data from 19th-century legal texts. Its superior reasoning capabilities ensured accurate parsing of complex schema fields like `Offense`, `Punishment`, and `Decision`.
@@ -149,8 +149,8 @@ To demonstrate the power of **Graph RAG**, we tested a complex query:
 
 | Method | Result | Why? |
 | :--- | :--- | :--- |
-| **Vector Search (Standard RAG)** | ❌ **Irrelevant** | Retrieved cases about *victims* sleeping during a robbery. The model matched the keywords "sleep" and "burglary" but missed the legal context of *intent*. |
-| **Stare Decisis AI (Graph RAG)** | ✅ **Found Precedent** | Identified *McLemore v. State*, a key precedent where a conviction was **reversed** because the defendant was intoxicated/asleep, failing to prove "intent to commit theft." |
+| **Vector Search (Standard RAG)** | **Irrelevant** | Retrieved cases about *victims* sleeping during a robbery. The model matched the keywords "sleep" and "burglary" but missed the legal context of *intent*. |
+| **Stare Decisis AI (Graph RAG)** | **Found Precedent** | Identified *McLemore v. State*, a key precedent where a conviction was **reversed** because the defendant was intoxicated/asleep, failing to prove "intent to commit theft." |
 
 **Why it worked:** The system found a semantically similar case (Anchor) and traversed the citation graph to find the authoritative ruling that the Anchor relied upon.
 
