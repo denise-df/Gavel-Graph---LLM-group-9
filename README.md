@@ -141,7 +141,7 @@ streamlit run app.py
 ![Immagine WhatsApp 2025-11-30 ore 13 29 35_995768eb](https://github.com/user-attachments/assets/65264338-fc82-46f1-a209-40fd8010808f)
 
 
-## 🔎 Case Study: The "Hybrid" Advantage
+## Case Study: The "Hybrid" Advantage
 
 To demonstrate the power of **Graph RAG**, we tested a complex query:
 
