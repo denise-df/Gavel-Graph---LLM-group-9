@@ -111,7 +111,7 @@ Clone the repository:
 ```bash
 git clone [https://github.com/denise-df/Gavel-Graph.git](https://github.com/denise-df/Gavel-Graph.git)
 cd Gavel-Graph
-
+```
 
 Install dependencies:
 
